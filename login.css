@@ -1,0 +1,46 @@
+body {
+    background-image: repeating-linear-gradient(blue, skyblue 50%, rgb(179, 125, 179 ));
+}
+.container {
+    border-style:solid;
+    border-color: blue;
+    display:flex;
+    justify-content: center;
+    align-content:center;
+    flex-direction: row-reverse;
+    background-image:linear-gradient(black, red, yellow);
+    border-radius: 50px;
+    height: 600px;
+    width: 600px;
+    color: rgb(246, 13, 13);
+    font-family: fantasy;
+    margin-left: 400px;
+    margin-top: 100px;
+    box-shadow: 5px 10px #190101
+}
+
+button {
+    display: flex;
+    align-items: center;
+    background-image:linear-gradient(red, yellow);
+    padding: 40px;
+    border-radius: 15px;
+    margin: 30px 30px 30px 35px;
+    color: blue;
+    box-shadow: 5px 10px #190101;
+    font-family: fantasy;
+}
+
+#signs {
+    margin: 30px 30px 30px 90px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+input{
+    font-size: larger;
+    background-image:linear-gradient(blue, black);
+    color: red;
+    padding: 40px;
+    box-shadow: 5px 10px #190101
+    
+}
